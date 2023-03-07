@@ -112,7 +112,7 @@ export default {
       this.flip(this.time_data.seconds.ones, seconds % 10)
     },
 
-    // 动画测试
+    // 处理每秒钟翻页动画
     top_start(event, type, digit, new_number){
       this.time_data[type][digit][0] = new_number
     },
@@ -135,7 +135,6 @@ export default {
   },
 
   mounted() {
-    // console.log(this.$refs.days_tens[0].firstChild)
     this.update_time()
   }
 }

@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import TimeOfMeet from "@/components/TimeOfMeet.vue";
+import TimeOfMeet from "@/components/cout_down.vue";
 
 export default {
   name: 'App',
